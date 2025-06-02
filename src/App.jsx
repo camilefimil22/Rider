@@ -6,11 +6,26 @@ import Inicio from './page/Inicio.jsx';
 import Menu from './page/Menu.jsx';
 import Menuinclusivo from './page/Menuinclusivo.jsx';
 import Ubicacion from './page/Ubicacion.jsx';
+import FlowingMenu from './FlowingMenu.tsx'
+
+
+
+const demoItems = [
+  { link: '#', text: 'Mojave', image: 'https://picsum.photos/600/400?random=1' },
+  { link: '#', text: 'Sonoma', image: 'https://picsum.photos/600/400?random=2' },
+  { link: '#', text: 'Monterey', image: 'https://picsum.photos/600/400?random=3' },
+  { link: '#', text: 'Sequoia', image: 'https://picsum.photos/600/400?random=4' }
+];
+
 
 
 function App() {
   return (
+    
     <>
+    <div style={{ height: '600px', position: 'relative' }}>
+  <FlowingMenu items={demoItems} />
+</div>
     <nav>
     <ul style={{display: 'flex', gap: '60px' }}>
     <li><Link to= '/'>Inicio</Link></li>
@@ -32,26 +47,7 @@ function App() {
 
 
 
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+  
     </>
   )
 }
