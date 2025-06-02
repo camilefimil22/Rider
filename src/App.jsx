@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <nav>
-    <ul style {{display: 'flex', gap: '60px' }}>
+    <ul style={{display: 'flex', gap: '60px' }}>
     <li><Link to= '/'>Inicio</Link></li>
     <li><Link to= 'Menu'>Menu</Link></li>
     <li><Link to= 'Menu inclusivo'>Menu Inclusivo</Link></li>
