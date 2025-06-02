@@ -2,12 +2,36 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Inicio from './page/Inicio.jsx';
+import Menu from './page/Menu.jsx';
+import Menuinclusivo from './page/Menuinclusivo.jsx';
+import Ubicacion from './page/Ubicacion.jsx';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+    <nav>
+    <ul style {{display: 'flex', gap: '60px' }}>
+    <li><Link to= '/'>Inicio</Link></li>
+    <li><Link to= 'Menu'>Menu</Link></li>
+    <li><Link to= 'Menu inclusivo'>Menu Inclusivo</Link></li>
+    <li><Link to= 'Ubicacion'>Ubicacion</Link></li>
+
+    </ul>
+  </nav>
+   <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/about" element={<Menu />} />
+          <Route path="/contact" element={<Menuinclusivo />} />
+          <Route path="/terapia" element={<Ubicacion />} />
+        
+
+        </Routes>
+
+
+
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
