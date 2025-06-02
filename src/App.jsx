@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Inicio from './page/Inicio.jsx';
 import Menu from './page/Menu.jsx';
 import Menuinclusivo from './page/Menuinclusivo.jsx';
 import Ubicacion from './page/Ubicacion.jsx';
 import FlowingMenu from './FlowingMenu.tsx'
-
-
+import { Link } from 'react-router';
+import { Routes } from 'react-router';
+import { Route } from 'react-router';
 
 const demoItems = [
   { link: '#', text: 'Mojave', image: 'https://picsum.photos/600/400?random=1' },
@@ -19,7 +18,9 @@ const demoItems = [
 
 
 
-function App() {
+
+
+export default function App() {
   return (
     
     <>
@@ -28,7 +29,7 @@ function App() {
 </div>
     <nav>
     <ul style={{display: 'flex', gap: '60px' }}>
-    <li><Link to= '/'>Inicio</Link></li>
+    <li><Link to= 'Inicio'>Inicio</Link></li>
     <li><Link to= 'Menu'>Menu</Link></li>
     <li><Link to= 'Menu inclusivo'>Menu Inclusivo</Link></li>
     <li><Link to= 'Ubicacion'>Ubicacion</Link></li>
@@ -51,5 +52,3 @@ function App() {
     </>
   )
 }
-
-export default App
