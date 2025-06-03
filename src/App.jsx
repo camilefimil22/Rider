@@ -29,17 +29,17 @@ export default function App() {
 </div>
     <nav>
     <ul style={{display: 'flex', gap: '60px' }}>
-    <li><Link to= 'Inicio'>Inicio</Link></li>
-    <li><Link to= 'Menu'>Menu</Link></li>
-    <li><Link to= 'Menu inclusivo'>Menu Inclusivo</Link></li>
-    <li><Link to= 'Ubicacion'>Ubicacion</Link></li>
+    <li><Link to= '/'>Inicio</Link></li>
+    <li><Link to= '/about'>Menu</Link></li>
+    <li><Link to= '/contact'>Menu Inclusivo</Link></li>
+    <li><Link to= '/terapia'>Ubicacion</Link></li>
 
     </ul>
   </nav>
    <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/about" element={<Menu />} />
-          <Route path="/contact" element={<Menuinclusivo />} />
+          <Route path="/contact/" element={<Menuinclusivo />} />
           <Route path="/terapia" element={<Ubicacion />} />
         
 
