@@ -122,12 +122,10 @@ export const ChromaGrid = ({
         
    
       ))}
+      
       <div className="chroma-overlay" />
       <div ref={fadeRef} className="chroma-fade" />
     </div>
-       <Routes>
-              <Route path="/contact/Pizza" element={<Pizza />} />
-          </Routes>
       </>
   );
 };

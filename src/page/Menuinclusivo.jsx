@@ -7,7 +7,7 @@ const items = [
     
     borderColor: "#3B82F6",
    
-    url:'/contact/Pizza'
+    url:'/pizza'
   },
   {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4INbmttnRGxz9IuQmk0NID5h0IaHPok01dA&s",
@@ -15,7 +15,7 @@ const items = [
     
     borderColor: "#10B981",
     
-    url: "https://linkedin.com/in/mikechen"
+    url: "/tapas"
 
   },
  {
@@ -24,7 +24,7 @@ const items = [
       
       borderColor: "#4F46E5",
   
-      url: "https://github.com/",
+      url: "/papas",
     },
      {
       image: "https://globalsymbols.com/uploads/production/image/imagefile/16314/17_16315_badd91ce-4108-4e92-87c2-1a3fa9303377.png",
@@ -32,7 +32,7 @@ const items = [
       
       borderColor: "#4F46E5",
      
-      url: "https://github.com/",
+      url: "/empanadas",
     },
      {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0C6UhuqG5Md2SkY-BAvmFKLwNHU_bfWjMtQ&s",
@@ -40,7 +40,7 @@ const items = [
       
       borderColor: "#4F46E5",
       
-      url: "https://github.com/",
+      url: "/hamburguesas",
     },
      {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWPbQGbQAMLZcGqcH86JzXc8lmasTLd5qqbmhK7KGh0hmhiC7NwUQBZngU8FjKwjUeYo&usqp=CAU",
@@ -48,7 +48,7 @@ const items = [
       
       borderColor: "#4F46E5",
      
-      url: "https://github.com/",
+      url: "/sandwiches",
     },
      {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKDU-31mA9oTOuzKxm0MgJ_NCnmZCXaxgCLw&s",
@@ -56,7 +56,7 @@ const items = [
      
       borderColor: "#4F46E5",
       
-      url: "https://github.com/",
+      url: "/ensaladas",
     },
      {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX2uX-tAcIfk7kbcO44lbbKkBwTe6PYiZE6g&s",
@@ -64,7 +64,7 @@ const items = [
      
       borderColor: "#4F46E5",
    
-      url: "https://github.com/",
+      url: "/menukids",
     },
      {
       image: "https://static.vecteezy.com/system/resources/previews/016/248/847/non_2x/desserts-macaron-cake-and-ice-cream-dessert-icon-element-illustration-colored-outline-vector.jpg",
@@ -72,7 +72,7 @@ const items = [
       
       borderColor: "#4F46E5",
     
-      url: "https://github.com/",
+      url: "/postres",
     },
      {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKiakE8DgQw5cF_xIPFUk9WnyKUFLuwX7s5Q&s",
@@ -80,7 +80,7 @@ const items = [
       
       borderColor: "#4F46E5",
 
-      url: "https://github.com/",
+      url: "/tragos",
     },
      {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqaSSyEg3mXu1gfQDj3G4T1zqYLJKSh_y_Iw&s",
@@ -88,7 +88,7 @@ const items = [
       
       borderColor: "#4F46E5",
      
-      url: "https://github.com/",
+      url: "/sinalcohol",
     },
     
 ];
