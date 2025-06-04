@@ -12,7 +12,7 @@ const demoItems = [
 export default function Inicio(){
  return (
 <>
-<div className='bg-red-200 h-full'> 
+<div className=' h-full'> 
 
  <div style={{ height: '600px', position: 'relative' }}>
   <FlowingMenu items={demoItems} />

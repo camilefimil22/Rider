@@ -7,14 +7,12 @@ import Ubicacion from './page/Ubicacion.jsx';
 import { Link } from 'react-router';
 import { Routes } from 'react-router';
 import { Route } from 'react-router';
-import Rider from './assets/rider.png'
 
-
+//
 export default function App() {
   return (
-    
-    <>
-       <nav>
+      <>
+    <nav className='flex justify-center text-white w-full '>
     <ul style={{display: 'flex', gap: '60px' }}>
     <li><Link to= '/'>Inicio</Link></li>
     <li><Link to= '/menu'>Menu</Link></li>
@@ -30,6 +28,8 @@ export default function App() {
           <Route path="/ubicacion" element={<Ubicacion />} />
       
         </Routes>
-    </>
+
+   
+      </>
   )
 }
