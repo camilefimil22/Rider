@@ -3,7 +3,7 @@ import './App.css'
 import Inicio from './page/Inicio.jsx';
 import Menu from './page/Menu.jsx';
 import Menuinclusivo from './page/Menuinclusivo.jsx';
-import Ubicacion from './page/Ubicacion.jsx';
+import Ubicacion from './page/ubicacion/Ubicacion.jsx';
 import FlowingMenu from './FlowingMenu.tsx'
 import { Routes,Route, Link} from 'react-router';
 import Pizza from './page/menuInclusivo/Pizza.jsx';

@@ -15,9 +15,7 @@ const items = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6mgioj1thSt13XB5fGu2DQPcLLinWdXwtQ&s",
     title: "a la provenzal",
     subtitle:"(papas fritas con provenzal)",
-    }, {
-    
-    },]
+    }, ]
 
     
 export default function Papas(){

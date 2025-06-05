@@ -16,9 +16,8 @@ const items = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTJUuBik4CHXlvvgXhuYQ4LGYxy-EMuSfwa5knRRAUqAd5RwSqKhYW00XtmjDK_jYaIFY&usqp=CAU",
     title: "Focaccia de romero y parmesano",
     subtitle:"(con tomates confitados & pesto de albahaca)",
-    }, {
-    
-    },]
+    }, 
+    ]
 
     
 export default function Tapas(){
