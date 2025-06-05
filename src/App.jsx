@@ -7,8 +7,9 @@ import Ubicacion from './page/Ubicacion.jsx';
 import { Link } from 'react-router';
 import { Routes } from 'react-router';
 import { Route } from 'react-router';
+import {menu} from './data.js'
 
-//
+
 export default function App() {
   return (
       <>
