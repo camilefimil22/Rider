@@ -6,20 +6,7 @@ import Menuinclusivo from './page/Menuinclusivo.jsx';
 import Ubicacion from './page/ubicacion/Ubicacion.jsx';
 import FlowingMenu from './FlowingMenu.tsx'
 import { Routes,Route, Link} from 'react-router';
-import Pizza from './page/menuInclusivo/Pizza.jsx';
-import Tapas from './page/menuInclusivo/Tapas.jsx';
-import Papas from'./page/menuInclusivo/papas.jsx';
-import Empanadas from './page/menuInclusivo/empanadas.jsx';
-import Hamburguesas from'./page/menuInclusivo/hamburguesas.jsx';
-import Sandwiches from'./page/menuInclusivo/sandwiches.jsx';
-import Ensaladas from'./page/menuInclusivo/ensaladas.jsx';
-import Menukids from'./page/menuInclusivo/menukids.jsx';
-import Postres from'./page/menuInclusivo/postres.jsx';
-import Tragos from'./page/menuInclusivo/tragos.jsx';
-import Sinalcohol from'./page/menuInclusivo/sinalcohol.jsx';
-
-
-
+import Detalle from './page/detalle.jsx';
 
 
 
@@ -56,25 +43,7 @@ export default function App() {
           <Route path="/about" element={<Menu />} />
           <Route path="/contact" element={<Menuinclusivo />} />
           <Route path="/terapia" element={<Ubicacion />} />
-          <Route path="/pizza" element={<Pizza />} />
-             <Route path="/tapas" element={<Tapas />} />
-             <Route path="/papas" element={<Papas />} />
-             <Route path="/empanadas" element={<Empanadas />} />
-             <Route path="/hamburguesas" element={<Hamburguesas />} />
-             <Route path="/sandwiches" element={<Sandwiches />} />
-             <Route path="/ensaladas" element={<Ensaladas />} />
-             <Route path="/menukids" element={<Menukids />} />
-             <Route path="/postres" element={<Postres />} />
-             <Route path="/tragos" element={<Tragos />} />
-             <Route path="/sinalcohol" element={<Sinalcohol />} />
-
-
-
         </Routes>
-
-
-
-
   
     </>
   )
