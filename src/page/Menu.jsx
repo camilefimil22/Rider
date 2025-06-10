@@ -4,7 +4,8 @@ import Tooltip from "../componentes/Tooltips.jsx";
 
 
 export default function Menu(){
-    const lista =[{titulo:"PIZZA",item:carta.pizza},{titulo:"BURGERS",item:carta.burgers},{titulo:"PAPAS",item:carta.papas}];
+    const lista =[{titulo:"PIZZA",item:carta.pizza},{titulo:"BURGERS",item:carta.burgers},{titulo:"PAPAS",item:carta.papas},{titulo:"EMPANADAS",item:carta.empanadas},{titulo:"SANDWICHES",item:carta.sandwiches},
+        {titulo:"TAPAS",item:carta.tapas},{titulo:"ENSALADAS",item:carta.ensaladas},{titulo:"KIDS",item:carta.kids},{titulo:"POSTRES",item:carta.postres}];
     
  
     const menu = lista.map((item)=>

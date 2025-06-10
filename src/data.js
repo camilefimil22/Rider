@@ -128,8 +128,8 @@ empanadas :[
         precio:"$3500",
         imagen:"https://www.recetasnatura.com.ar/sites/recetasnatura/files/recorte_web-natura_y_mayoliva-noviembre-2022-655x475-empanadas_de_queso_y_cebollas_.jpg"
     },
-    ]//** */
-    export const sandwiches =[
+    ],
+sandwiches :[
      {
         producto:"SANGUINESA",
         descripcion:"MILANESA, JAMON, QUESO, LECHUGA Y TOMATE",
@@ -154,8 +154,8 @@ empanadas :[
         precio:"$18000",
         imagen:"https://www.eatingwell.com/thmb/S65kUcStJrjmnFi8IpBfKGIRIKg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chickpea-salad-sandwich-7923367-1x1-429d3a1000264d85ac7892aeac3d4c02.jpg"
     },
-        ]
-export const tapas =[
+        ],
+tapas:[ 
     {
         producto:"TORTILLA DE PAPAS",
         descripcion:"CON DIP DE LA CASA",
@@ -180,9 +180,8 @@ export const tapas =[
         precio:"$10500",
         imagen:"https://cdn.shopify.com/s/files/1/0191/9978/files/ajo-py-parmesano.jpg?v=1732179459"
     },
-        ]
-
-    export const ensaladas =[
+        ],
+ensaladas:[ 
     {
         producto: "ENSALADA CESAR",
         descripcion: "MIX HOJAS VERDES, QUESO PARMESANO, ADEREZO CESAR, POLLO A LA PLANCHA, CRUTONES",
@@ -195,9 +194,8 @@ export const tapas =[
         precio: "$19000",
         imagen: "https://unapizcadeluna.com/wp-content/uploads/2021/06/Final3-1-768x641.jpg"
     }
-        ]
-
-    export const kids =[
+        ],
+kids:[ 
     {
         producto: "MILANESA",
         descripcion: "MILANESA DE TERNERA CON PAPAS",
@@ -210,9 +208,8 @@ export const tapas =[
         precio: "$14000",
         imagen: "https://burger54.com.ar/wp-content/uploads/2024/01/KID-CHEESEBURGER.png"
         }
-        ]
-
-    export const postres = [
+        ],
+postres:[ 
         {
         producto: "FLAN CASERO",
         descripcion: "CON DULCE DE LECHE O CREMA",
@@ -238,7 +235,6 @@ export const tapas =[
         imagen: "https://acdn-us.mitiendanube.com/stores/528/608/products/559c3821-b284-49f4-97c0-df37eb0c2405_nube-a0f050b33836c3efde15877793342417-640-0.jpg"
     },
     ]
-  */
     
     }
 
