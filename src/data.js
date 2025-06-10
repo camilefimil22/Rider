@@ -1,4 +1,4 @@
-export const menu =[
+export const carta ={ pizza :[
      {
         producto:"NAPOLITANA",
         descripcion:"QUESO MOZZARELLA, TOMATES FRESCOS, SALSA DE TOMATE Y PESTO DE ALBAHACA",
@@ -48,9 +48,9 @@ export const menu =[
         imagen:"./src/assets/especial.jpg"
     },
 
-]
+],
 
-export const burgers =[
+burgers :[
      {
         producto:"TRADICIONAL",
         descripcion:"QUESO, JAMÓN, LECHUGA, TOMATE, SALSA ALIOLI",
@@ -82,9 +82,8 @@ export const burgers =[
         imagen:"https://www.tupperware.com.ar/service/appng/tupperware-products/webservice/recipeImages/118460_666x468.jpg"
     },
 
-]
-   
-export const papas =[
+],
+  papas :[
      {
         producto:"PAPAS CLASICAS",
         descripcion:"CON DIP DE MAYONESA Y KETCHUP",
@@ -109,8 +108,8 @@ export const papas =[
         precio:"$11000",
         imagen:"https://jumboalacarta.com.ar/wp-content/uploads/2022/08/Foto-1-2-1024x576.jpg"
     },
-]
-export const empanadas =[
+],
+empanadas :[
      {
         producto:"JAMON Y QUESO",
         descripcion:"FRITAS O AL HORNO CON DIP DE SALSA PICANTE",
@@ -129,7 +128,7 @@ export const empanadas =[
         precio:"$3500",
         imagen:"https://www.recetasnatura.com.ar/sites/recetasnatura/files/recorte_web-natura_y_mayoliva-noviembre-2022-655x475-empanadas_de_queso_y_cebollas_.jpg"
     },
-    ]
+    ]//** */
     export const sandwiches =[
      {
         producto:"SANGUINESA",
@@ -140,7 +139,7 @@ export const empanadas =[
     {
         producto:"LA HOYA",
         descripcion:"POLLO A LA PLANCHA, ALIOLI, QUESO, LECHUGA Y TOMATE",
-        precio:"17500",
+        precio:"$17500",
         imagen:"https://cdn7.kiwilimon.com/recetaimagen/14209/640x640/11960.jpg.webp"
     },
     {
@@ -239,7 +238,12 @@ export const tapas =[
         imagen: "https://acdn-us.mitiendanube.com/stores/528/608/products/559c3821-b284-49f4-97c0-df37eb0c2405_nube-a0f050b33836c3efde15877793342417-640-0.jpg"
     },
     ]
-    export const tragos = [
+  */
+    
+    }
+
+
+       export const tragos = [
     {
         producto: "VERMOUTH",
         descripcion: "CIZANO, SODA, LIMÓN O NARANJA",
@@ -399,4 +403,4 @@ export const tapas =[
         precio: "$6000",
         imagen: "https://acdn-us.mitiendanube.com/stores/001/128/972/products/web_copa-tulipa1-00830220d47257c97916563494640562-480-0.jpg"
     }, 
-    ] 
+    ]
