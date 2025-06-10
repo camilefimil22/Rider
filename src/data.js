@@ -1,3 +1,5 @@
+
+
 export const carta={
     empanadas:[
   {
@@ -271,23 +273,23 @@ tragos : [
     subtitle:"(Gin de la casa,tonica,limon & pepino)",
     },
      {
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXUcC9GzgWdxOLz4594BAelI4lHwQMZXLvQ&s",
+    title: "CERVEZ ARTESANAL",
+   
+    
+    },
+    {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrUkidxMzVmszfsaFVrXjliGcABtOdx6WnMUh7TdN7xZbvnKJ9z6naLTFiqvshLMrilwg&usqp=CAU",
     title: "GIN TONIC ROSADO",
     subtitle:"(Gin de la casa,tonica,limon & frutos rojos)",
     
     },
-    {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXUcC9GzgWdxOLz4594BAelI4lHwQMZXLvQ&s",
-    title: "CERVEZA ARTESANAL",
-   
-    
-    },
 
-    
+  
 ],
 }
     
-const CERVEZAS=[{
+export const cerveza=[{
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXUcC9GzgWdxOLz4594BAelI4lHwQMZXLvQ&s",
     title: "AMERICAN IPA GORSEDD",
    

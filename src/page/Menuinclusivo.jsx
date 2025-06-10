@@ -1,6 +1,6 @@
-import { data } from 'react-router';
 import {carta} from '../data.js'
 import { useState } from 'react';
+import {cerveza} from '../data.js'
 
 
 const items = [
@@ -63,20 +63,34 @@ const items = [
     
 ];
 
+function Item({ name }) {
+   const item = cerveza.map((c,i) => (
+            <h1 key={i} className='ml-auto bg-orange-200 text-center text-4xl'>{c.title}</h1>
+      ))
+  if (name == carta.tragos) {
+     return (<div>
+        {item}
+     </div>
+     )
+  }
+}
 
 export default function Menuinclusivo(){
     const [state, setState] = useState(items)
+    
 
     return(
-    <div className=" relative">
-    <div className="flex flex-row flex-wrap">
+    <div className=" grid row-span-3 h-56 grid-cols-2 place-items-stretch gap-4">
       {state.map((c,i) => (
-          <div key={i} onClick={() => c.url ? setState(c.url) : setState(items) } className=" basis-64 w-60 justify-items-center">
+          <div key={i} onClick={() =>  c.url ? setState(c.url) : setState(items) } className=" justify-items-center">
             <img className="h-50 w-50" src={c.image} alt={c.title} loading="lazy" />
-            <h1 className='text-4xl'>{c.title}</h1>
+            <h1 className='bg-orange-200 text-4xl'>{c.title}</h1>
           </div>
       ))}
-    </div>
+       
+    <Item 
+          name={state} 
+        />
     </div>
 
     )
