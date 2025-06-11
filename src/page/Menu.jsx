@@ -28,12 +28,17 @@ export default function Menu(){
                 src="./src/assets/cartel.jpg"
             />
         </div>
-        
-        {menu}
-        <Tooltip className="mt-40 mb-20 flex-col"/>
-    
-    <Form/>
-    <div/>
-    </>
- );
-}
+                {lista.map((item)=>
+                    <>
+                    <Lista
+                        titulo={item.titulo}
+                        props={item.item}
+                    />
+            </>)}
+            <Form/>
+            <div className="absolute top-30 left-2 h-200 gap-30">
+                <Tooltip />
+            </div>
+    </>        
+
+); }

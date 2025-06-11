@@ -26,9 +26,9 @@ export default function Bebidas(){
                 props={item.item}
             />
     </>)}
+    
     <Form/>
-    <div className="absolute top-30 left-20 h-200 gap-30">
-
+    <div className="absolute top-30 left-2 h-200 gap-30">
         <Tooltip />
     </div>
     

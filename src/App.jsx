@@ -16,7 +16,7 @@ export default function App() {
     <nav className='flex justify-center text-white w-full '>
     < ul style={{display: 'flex', gap: '60px' }} >
     <li><Link to= '/'>Inicio</Link></li>
-    <li><Link to= 'Menu'>Menu</Link></li>
+    <li><Link to= 'Menu'>Menú</Link></li>
     <li><Link to= 'Bebidas'>Bebidas</Link></li>
     <li><Link to= 'Menuinclusivo'>Menu Inclusivo</Link></li>
     <li><Link to= 'Ubicacion'>Ubicacion</Link></li>
