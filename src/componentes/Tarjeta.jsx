@@ -1,10 +1,8 @@
-
-
 export default function Lista({titulo ,props}){
     return(
         <div className="flex justify-center" >
         <div>
-            <div className= 'bg-red-900 border-black text-white text-xl font-bold rounded-md shadow-md w-26 '>
+            <div className= 'bg-red-900 border-black text-white text-xl font-bold rounded-md shadow-md w-35 '>
                                 <p>{titulo}</p>
                                 
                     </div>

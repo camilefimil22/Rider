@@ -5,6 +5,7 @@ import Menu from './page/Menu.jsx';
 import Menuinclusivo from './page/Menuinclusivo.jsx';
 import Ubicacion from './page/Ubicacion.jsx';
 import Bebidas from './page/Bebidas.jsx';
+import Tooltip from './componentes/Tooltips.jsx';
 import { Link, Routes ,Route } from 'react-router';
 
 
@@ -31,7 +32,7 @@ export default function App() {
           <Route path="ubicacion" element={<Ubicacion />} />
         </Routes>   
 
-     
+    
       </>
   )
 

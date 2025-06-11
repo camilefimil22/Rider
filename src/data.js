@@ -13,13 +13,13 @@ export const carta ={ pizza :[
     },
     {
         producto:"MARGARITA",
-        descripcion:"QUESO MOZZARELLA, SALSA DE TOMATEY Y ALBAHACA",
+        descripcion:"QUESO MOZZARELLA, SALSA DE TOMATE Y Y ALBAHACA",
         precio:"$15000",
         imagen:"./src/assets/margarita.jpg"
     },
       {
         producto:"ESPECIAL",
-        descripcion:"QUESO MOZZARELLA, SALSA DE TOMATE, JAMÓN,MORRÓN",
+        descripcion:"QUESO MOZZARELLA, SALSA DE TOMATE, JAMÓN, MORRÓN",
         precio:"$15000",
         imagen:"./src/assets/especial.jpg"
     },
@@ -239,7 +239,7 @@ postres:[
     }
 
 
-       export const tragos = [
+export const bebida ={ tragos :[
     {
         producto: "VERMOUTH",
         descripcion: "CIZANO, SODA, LIMÓN O NARANJA",
@@ -268,10 +268,10 @@ postres:[
         descripcion: "CON HIERBAS AROMATICAS Y JUGO DE NARANJA",
         precio: "$7000",
         imagen: "https://web-app-prod-01.nyc3.cdn.digitaloceanspaces.com/ryf_media/products/5031865cfd6ac0cf8ce814592acb06a4.jpg"
-    },
-    ]
+    }
+    ],
 
-    export const gin = [
+  gin :[
     {
         producto: "GIN TONIC",
         descripcion: "GIN DE LA CASA, TONICA, LIMÓN Y PEPINO",
@@ -298,10 +298,10 @@ postres:[
         producto: "BOMBAY",
         precio: "$12000",
         imagen: "https://media.vogue.es/photos/61a74fe2628ebdfdc090f9d1/2:3/w_2560%2Cc_limit/F21_Bombay_BombayTonic_Sensory_Awakening_OLV_16x9_30_EndFrame_BackgroundOnly.jpg"
-    },
-    ]
+     }
+    ],
     
-    export const sinalcohol = [
+sinalcohol :[
     { 
         producto: "GASEOSAS 330cc",
         descripcion: "COCA COLA, SRPITE, FANTA",
@@ -340,10 +340,10 @@ postres:[
         producto: "AGUA TONICA",
         precio: "$4500",
         imagen: "https://acdn-us.mitiendanube.com/stores/861/458/products/341071-e6c16c138b3e9411f815771067743234-640-0.jpg"
-    },
-    ]
+     }
+    ],
     
-    export const cervezas = [
+ cervezas :[
     {
         producto: "AMERICAN IPA GORSEDD",
         precio: "$6000",
@@ -400,3 +400,4 @@ postres:[
         imagen: "https://acdn-us.mitiendanube.com/stores/001/128/972/products/web_copa-tulipa1-00830220d47257c97916563494640562-480-0.jpg"
     }, 
     ]
+    }
