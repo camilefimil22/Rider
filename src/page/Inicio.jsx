@@ -1,6 +1,6 @@
 import FlowingMenu from '../FlowingMenu.tsx'
-
 import Tooltip from '../componentes/Tooltips.jsx';
+import Button from '../componentes/Cartel.jsx'
 
 const demoItems = [
   { link: '/', text: 'Inicio', image: 'https://tse4.mm.bing.net/th/id/OIP.s6KPENkVUykN8gMboHxrDwHaHa?rs=1&pid=ImgDetMain' },
@@ -17,17 +17,23 @@ export default function Inicio(){
 
  <div  style={{ height: '600px', position: 'relative' }}>
   <FlowingMenu items={demoItems} />
+</div>
+
+   <div className= 'justify-center'>
+    <div className='mt-1 ml-160 flex w-20'>
+    <Button/>
+    </div>
+
   <div className='flex justify-center'>
-    <div className='mt-10 flex flex-col w-20'>
+    <div className='mt-10 mr-6 flex w-15'>
       <Tooltip />
     </div>
-  </div>
-
-</div>
-
   
 </div>
-    </>
+</div>
+</div>
+
+</>
     
 );
 }

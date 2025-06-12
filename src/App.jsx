@@ -18,8 +18,8 @@ export default function App() {
     <li><Link to= '/'>Inicio</Link></li>
     <li><Link to= 'Menu'>Menú</Link></li>
     <li><Link to= 'Bebidas'>Bebidas</Link></li>
-    <li><Link to= 'Menuinclusivo'>Menu Inclusivo</Link></li>
-    <li><Link to= 'Ubicacion'>Ubicacion</Link></li>
+    <li><Link to= 'Menuinclusivo'>Menú Inclusivo</Link></li>
+    <li><Link to= 'Ubicacion'>Ubicación</Link></li>
     </ul>
 
   </nav>
