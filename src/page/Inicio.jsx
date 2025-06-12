@@ -1,4 +1,4 @@
-import FlowingMenu from '../FlowingMenu.tsx'
+import Flowing from '../Flowing.tsx'
 import Tooltip from '../componentes/Tooltips.jsx';
 import Button from '../componentes/Cartel.jsx'
 
@@ -16,7 +16,7 @@ export default function Inicio(){
 <div className=' h-full'> 
 
  <div  style={{ height: '600px', position: 'relative' }}>
-  <FlowingMenu items={demoItems} />
+  <Flowing items={demoItems} />
 </div>
 
    <div className= 'justify-center'>

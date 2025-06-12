@@ -402,7 +402,7 @@ sinalcohol :[
     ]
     }
 
-export const carta={
+export const cartas={
     empanadas:[
   {
     image: "https://media.istockphoto.com/id/1363835210/es/vector/vector-empanadas-ilustraci%C3%B3n-aislada-comida-frita.jpg?s=612x612&w=0&k=20&c=aq4eescLdl2x323_V5pKU2L-s-Kr2aO1w9C4Q3Onnlc=",
