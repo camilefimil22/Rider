@@ -4,15 +4,15 @@ export const carta={
     empanadas:[
   {
     image: "https://media.istockphoto.com/id/1363835210/es/vector/vector-empanadas-ilustraci%C3%B3n-aislada-comida-frita.jpg?s=612x612&w=0&k=20&c=aq4eescLdl2x323_V5pKU2L-s-Kr2aO1w9C4Q3Onnlc=",
-    title: "jamon & queso",
+    title: "Jamon & Queso",
    
     }, {
     image: "https://media.istockphoto.com/id/1363835210/es/vector/vector-empanadas-ilustraci%C3%B3n-aislada-comida-frita.jpg?s=612x612&w=0&k=20&c=aq4eescLdl2x323_V5pKU2L-s-Kr2aO1w9C4Q3Onnlc=",
-    title: "carne cortada a cuchillo",
+    title: "Carne cortada a cuchillo",
     
     }, {
     image: "https://media.istockphoto.com/id/1363835210/es/vector/vector-empanadas-ilustraci%C3%B3n-aislada-comida-frita.jpg?s=612x612&w=0&k=20&c=aq4eescLdl2x323_V5pKU2L-s-Kr2aO1w9C4Q3Onnlc=",
-    title: "queso y cebolla",
+    title: "Queso y Cebolla",
     
     }, 
  ],
@@ -35,28 +35,28 @@ export const carta={
 hamburguesas :[
   {
     image: "https://st.depositphotos.com/1734074/5127/v/450/depositphotos_51276485-stock-illustration-vector-sandwich-flat-icon.jpg",
-    title: "tradi",
+    title: "TRADI",
     subtitle:"(queso,jamon,lechuga,tomate & alioli)",
     }, 
     {
     image: "https://st.depositphotos.com/1734074/5127/v/450/depositphotos_51276485-stock-illustration-vector-sandwich-flat-icon.jpg",
-    title: "american style",
+    title: "AMERICAN STYLE",
     subtitle:"( cheddar,pepinillos & ketchup)",
     },
      {
     image: "https://st.depositphotos.com/1734074/5127/v/450/depositphotos_51276485-stock-illustration-vector-sandwich-flat-icon.jpg",
-    title: "patagonica",
+    title: "PATAGONICA",
     subtitle:"(queso azul,cebolla caramelizada,hongos,rucula & alioli)",
     },
      {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnwEE3xurC3sHaSorEWFmZGnaPoZw-VMpMTw&s",
-    title: "crispy",
+    title: "CRISPY",
     subtitle:"(pollo crispy,alioli,lechuga & coleslaw)",
      },
      { 
     
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1FJGQPev9g5hQrbjDEsW6yp_7MdwT3-Ym1A&s",
-    title: "veggie",
+    title: "VEGGIE",
     subtitle:"(mix verdes,tomate,queso,cebolla caramelizada & alioli)",
 
     }, 
@@ -83,19 +83,19 @@ menukids : [
  papas :[
   {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6mgioj1thSt13XB5fGu2DQPcLLinWdXwtQ&s",
-    title: "las clasicas",
+    title: "LAS CLASICAS",
     subtitle:"(papas fritas con dip de mayonesa & ketchup)",
     }, {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6mgioj1thSt13XB5fGu2DQPcLLinWdXwtQ&s",
-    title: "papas rider",
+    title: "PAPAS RIDER",
     subtitle:"(papas con cheddar,panceta & verdeo)",
     }, {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6mgioj1thSt13XB5fGu2DQPcLLinWdXwtQ&s",
-    title: "papas bravas",
+    title: "PAPAS BRAVAS",
     subtitle:"(papas rotas con salsa picante rider)",
     }, {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6mgioj1thSt13XB5fGu2DQPcLLinWdXwtQ&s",
-    title: "a la provenzal",
+    title: "A LA PROVENZAL",
     subtitle:"(papas fritas con provenzal)",
     }, 
   ],
@@ -103,43 +103,43 @@ menukids : [
      pizzas :[
   {
     image: "https://globalsymbols.com/uploads/production/image/imagefile/15587/17_15588_c48d7973-e916-4419-969b-e38c1483aa06.png",
-    title: "Mozzarella",
+    title: "MOZZARELLA",
     subtitle:"(queso mozzarella & salsa de tomate)",
     }, {
     image: "https://globalsymbols.com/uploads/production/image/imagefile/15587/17_15588_c48d7973-e916-4419-969b-e38c1483aa06.png",
-    title: "Napolitana",
+    title: "NAPOLITANA",
     subtitle:"(queso mozzarella,tomates frescos,salsa de tomate & pesto de albahaca)",
     }, {
     image: "https://globalsymbols.com/uploads/production/image/imagefile/15587/17_15588_c48d7973-e916-4419-969b-e38c1483aa06.png",
-    title: "Margarita",
+    title: "MARGARITA",
     subtitle:"(queso mozzarella, salsa de tomate & albahaca",
     }, {
     image: "https://globalsymbols.com/uploads/production/image/imagefile/15587/17_15588_c48d7973-e916-4419-969b-e38c1483aa06.png",
-    title: "Fugazzeta",
+    title: "FUGAZZETA",
     subtitle:"(queso mozzarella,salsa de tomate & cebolla)",
     }, {
     image: "https://globalsymbols.com/uploads/production/image/imagefile/15587/17_15588_c48d7973-e916-4419-969b-e38c1483aa06.png",
-    title: "Especial",
+    title: "ESPECIAL",
     subtitle:"(queso mozzarella,salsa de tomate, jamon & morron )",
     }, {
     image: "https://globalsymbols.com/uploads/production/image/imagefile/15587/17_15588_c48d7973-e916-4419-969b-e38c1483aa06.png",
-    title: "Bacon",
+    title: "BACON",
     subtitle:"(queso mozzarella,salsa de tomate,panceta & huevo frito)",
     
     image: "https://globalsymbols.com/uploads/production/image/imagefile/15587/17_15588_c48d7973-e916-4419-969b-e38c1483aa06.png",
-    title: "Serrano",
+    title: "SERRANO",
     subtitle:"(queso mozzarella,salsa de tomate,rucula,jamon crudo & parmesano )",
     },],
     
  postres : [
   {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRndjNGbdak_ApAqo983D7ZfkjwmY_FtqOxyA&s",
-    title: "Flan casero",
+    title: "FLAN CASERO",
     subtitle:"(acompañado de dulce de leche o crema)",
     }, 
     {
     image: "https://cdn-icons-png.flaticon.com/512/1257/1257078.png",
-    title: "Copa helada",
+    title: "COPA HELADA",
     subtitle:"(hasta 3 sabores, (vainilla,americana,chocolate,frutilla,frutos del bosque))",
     },
      {
@@ -157,22 +157,22 @@ menukids : [
 sandwiches : [
   {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWPbQGbQAMLZcGqcH86JzXc8lmasTLd5qqbmhK7KGh0hmhiC7NwUQBZngU8FjKwjUeYo&usqp=CAU",
-    title: "sanduinesa",
+    title: "SANDUINESA",
     subtitle:"(milanesa,jamon,queso,lechuga & tomate)",
     }, 
     {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWPbQGbQAMLZcGqcH86JzXc8lmasTLd5qqbmhK7KGh0hmhiC7NwUQBZngU8FjKwjUeYo&usqp=CAU",
-    title: "la hoya",
+    title: "LA HOYA",
     subtitle:"(pollo a la plancha,alioli,queso,lechuga & tomate)",
     },
      {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWPbQGbQAMLZcGqcH86JzXc8lmasTLd5qqbmhK7KGh0hmhiC7NwUQBZngU8FjKwjUeYo&usqp=CAU",
-    title: "andorra",
+    title: "ANDORRA",
     subtitle:"(milanesa de berenjena,alioli,queso,rucula & tomates confitados)",
     },
      {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWPbQGbQAMLZcGqcH86JzXc8lmasTLd5qqbmhK7KGh0hmhiC7NwUQBZngU8FjKwjUeYo&usqp=CAU",
-    title: "vegan style",
+    title: "VEGGAN STYLE",
     subtitle:"(berenjena grillada,zuchinni grillado,rucula,cebolla caramelizada & tomates confitados)",
      },
      { 
@@ -213,7 +213,7 @@ sinalcohol :[
       { 
     
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Dzg6AMJQ0CSF-k_1kIEQdICSAiu_dZ9oVw&s",
-    title: "Agua",
+    title: "AGUA",
     subtitle:"(agua con & sin gas, agua tonica)",
 
      },
@@ -223,19 +223,19 @@ sinalcohol :[
  tapas : [
   {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4INbmttnRGxz9IuQmk0NID5h0IaHPok01dA&s",
-    title: "Tortilla de papas",
+    title: "TORTILLA DE PAPAS",
     subtitle:"(con dip de la casa)",
     }, {
     image: "https://www.shutterstock.com/image-vector/chicken-nuggets-icon-fast-food-600nw-2148206653.jpg",
-    title: "fingers de pollo",
+    title: "FINGERS DE POLLO",
     subtitle:"(con salsa de la casa)",
     }, {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9MxlU7wmVQ_0jSpLvz46y9UpWLjXaeTRSMQ&s",
-    title: "hummus de remolacha",
+    title: "HUMMUS DE REMOLACHA",
     subtitle:"(con bastones de zanahoria y apio)",
     }, {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTJUuBik4CHXlvvgXhuYQ4LGYxy-EMuSfwa5knRRAUqAd5RwSqKhYW00XtmjDK_jYaIFY&usqp=CAU",
-    title: "Focaccia de romero y parmesano",
+    title: "FOCACCIA DE ROMERO Y PARMESANO",
     subtitle:"(con tomates confitados & pesto de albahaca)",
     }, 
     ],

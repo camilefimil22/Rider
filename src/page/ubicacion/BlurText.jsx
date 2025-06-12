@@ -14,7 +14,7 @@ const buildKeyframes = (from, steps) => {
   return keyframes;
 };
 
-const BlurText = ({
+export const BlurText = ({
   text = '',
   delay = 200,
   className = '',

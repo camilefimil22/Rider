@@ -1,6 +1,7 @@
 import {carta} from '../data.js'
 import { useState } from 'react';
 import {cerveza} from '../data.js'
+import {BlurText} from './ubicacion/BlurText.jsx'
 
 
 const items = [
@@ -65,7 +66,7 @@ const items = [
 
 function Item({ name }) {
    const item = cerveza.map((c,i) => (
-            <h1 key={i} className='ml-auto bg-orange-200 text-center text-4xl'>{c.title}</h1>
+            <h1 key={i} className='bg-orange-200 text-4xl   text-center '>{c.title}</h1>
       ))
   if (name == carta.tragos) {
      return (<div>
@@ -80,18 +81,42 @@ export default function Menuinclusivo(){
     
 
     return(
-    <div className=" grid row-span-3 h-56 grid-cols-2 place-items-stretch gap-4">
-      {state.map((c,i) => (
-          <div key={i} onClick={() =>  c.url ? setState(c.url) : setState(items) } className=" justify-items-center">
-            <img className="h-50 w-50" src={c.image} alt={c.title} loading="lazy" />
-            <h1 className='bg-orange-200 text-4xl'>{c.title}</h1>
-          </div>
-      ))}
+      <>
+      
+      <div className='flex aling-center justify-center text-center underline decoration-double text-6xl font-mono'>
+       <div>
+        <div className="flex justify-center text-6xl text-brown underline decoration-double font-mono">
+                    <BlurText
+                      text="MENU INCLUSIVO"
+                      delay={150}
+                      animateBy="words"
+                      direction="top"
+                    
+                      />
+                </div>
+          <div className="flex justify-center mx-auto border-white border-3 rounded-full bg-center h-50 w-50 bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8cTXQZf4gaMmkCCM9AJX5Lo8dTxpsYu-v5A&s)]"> 
+
+        </div>
+       </div>
        
-    <Item 
-          name={state} 
-        />
-    </div>
+          
+      </div>
+          
+   
+          <div className=" grid row-span-3 h-56 grid-cols-2 place-items-stretch gap-4">
+            {state.map((c,i) => (
+                <div key={i} onClick={() =>  c.url ? setState(c.url) : setState(items) } className=" justify-items-center">
+                  <img className="h-50 w-50" src={c.image} alt={c.title} loading="lazy" />
+                  <h1 className='bg-orange-200 text-4xl px-50'>{c.title}</h1>
+                  <h1 className='bg-orange-200 text-2xl px-50'>{c?.subtitle}</h1>
+                </div>
+            ))}
+          <Item 
+                name={state} 
+              />
+          </div>
+      </>
+ 
 
     )
 
