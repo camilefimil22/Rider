@@ -3,10 +3,10 @@ import Tooltip from '../componentes/Tooltips.jsx';
 import Button from '../componentes/Cartel.jsx'
 
 const demoItems = [
-  { link: '/', text: 'Inicio', image: 'https://tse4.mm.bing.net/th/id/OIP.s6KPENkVUykN8gMboHxrDwHaHa?rs=1&pid=ImgDetMain' },
-  { link: 'Menu', text: 'Menú', image: 'https://tse1.mm.bing.net/th/id/OIP.4b0hznE1y7OrfC0ghwkjjgHaHa?rs=1&pid=ImgDetMain' },
-  { link: 'Bebidas', text: 'Bebidas', image: 'https://media-cdn.tripadvisor.com/media/photo-s/0e/3c/33/2f/12-canillas-de-cervezas.jpg' },
-  { link: 'Menuinclusivo', text: 'Menú Inclusivo', image: 'https://tse1.mm.bing.net/th/id/OIP.td3aUV0e8Wy7lQqnFtB5gwHaHa?rs=1&pid=ImgDetMain' },
+  { link: '/', text: 'Inicio', image: 'https://libretadeapuntes.com/libreta/wp-content/uploads/2021/10/Cerveza-dispensador.jpeg' },
+  { link: 'Menu', text: 'Menú', image: 'https://okdiario.com/img/2021/05/28/hamburguesa-gourmet-655x368.jpg' },
+  { link: 'Bebidas', text: 'Bebidas', image: 'https://www.supercash.es/wp-content/uploads/2022/02/bebidas-refrescantes.jpg' },
+  { link: 'Menuinclusivo', text: 'Menú Inclusivo', image: 'https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg' },
   { link: 'Ubicacion', text: 'Ubicación', image: 'https://lh5.googleusercontent.com/p/AF1QipOm-ermO-lOgNoJjk4mdQbbCYqPcbFwHnBZyeVC=w408-h306-k-no' }
 ];
 
@@ -25,7 +25,7 @@ export default function Inicio(){
     </div>
 
   <div className='flex justify-center'>
-    <div className='mt-10 mr-6 flex w-15'>
+    <div className='mt-10 mr-4 flex w-15'>
       <Tooltip />
     </div>
   
