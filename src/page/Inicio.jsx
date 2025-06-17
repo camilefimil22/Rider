@@ -19,13 +19,12 @@ export default function Inicio(){
   <Flowing items={demoItems} />
 </div>
 
-   <div className= 'justify-center'>
-    <div className='mt-1 ml-160 flex w-20'>
-    <Button/>
-    </div>
+   <div className= 'flex flex-col mt-20 justify-center'>
+      <Button/>
+    
 
   <div className='flex justify-center'>
-    <div className='mt-10 mr-4 flex w-15'>
+    <div className='mt-20 mr-4 flex w-15'>
       <Tooltip />
     </div>
   

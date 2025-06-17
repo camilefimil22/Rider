@@ -3,49 +3,49 @@ export const carta ={ pizza :[
         producto:"NAPOLITANA",
         descripcion:"QUESO MOZZARELLA, TOMATES FRESCOS, SALSA DE TOMATE Y PESTO DE ALBAHACA",
         precio:"$15000",
-        imagen:"./src/assets/napolitana.jpg"
+        imagen:"https://osojimix.com/wp-content/uploads/2022/06/Para-la-masa-de-pizza-napolitana-8-hrs-fermentacion-Web-1-500x500.jpg"
     },
     {
         producto:"MOZZARELLA",
         descripcion:"QUESO MOZZARELLA Y SALSA DE TOMATE",
         precio:"$15000",
-        imagen:"./src/assets/mozzarella.jpg"
+        imagen:"https://italianfoodforever.com/wp-content/uploads/2015/11/buratapizza.jpg"
     },
     {
         producto:"MARGARITA",
         descripcion:"QUESO MOZZARELLA, SALSA DE TOMATE Y Y ALBAHACA",
         precio:"$15000",
-        imagen:"./src/assets/margarita.jpg"
+        imagen:"https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg"
     },
       {
         producto:"ESPECIAL",
         descripcion:"QUESO MOZZARELLA, SALSA DE TOMATE, JAMÓN, MORRÓN",
         precio:"$15000",
-        imagen:"./src/assets/especial.jpg"
+        imagen:"https://productoszabala.com/234-large_default/pizza-jamon-queso-tomate.jpg"
     },
     {
         producto:"FUGAZZETA",
         descripcion:"QUESO MOZZARELLA, SALSA DE TOMATE, CEBOLLA",
         precio:"$15000",
-        imagen:"./src/assets/fugazzeta.webp"
+        imagen:"https://res.cloudinary.com/hksqkdlah/image/upload/SFS_Fugazzeta-133_p0cecc.jpg"
     },
     {
         producto:"BACON",
         descripcion:"QUESO MOZZARELLA, SALSA DE TOMATE, PANCETA, HUEVO FRITO",
         precio:"$15000",
-        imagen:"./src/assets/bacon.webp"
+        imagen:"https://thumbs.dreamstime.com/b/pizza-australiana-crujiente-con-huevos-de-panceta-pimiento-champi%C3%B1ones-mozzarella-y-cebollas-rojas-enclavadas-en-una-tabla-madera-274783913.jpg"
     },
     {
         producto:"SERRANO",
         descripcion:"QUESO MOZZARELLA, SALSA DE TOMATE, RÚCULA, JAMON CRUDO, PARMESANO",
         precio:"$15000",
-        imagen:"./src/assets/serrano.jpg"
+        imagen:"https://imag.bonviveur.com/vista-de-la-pizza-de-jamon-y-queso-recien-hecha.jpg"
     },
     {
         producto:"ROQUEFORT",
         descripcion:"QUESO MOZZARELLA, SALSA DE TOMATE, QUESO ROQUEFORT",
         precio:"$15000",
-        imagen:"./src/assets/especial.jpg"
+        imagen:"https://www.justspices.es/media/recipe/resized/510x510/recipe/pizza-4-quesos_1.jpg"
     },
 
 ],
