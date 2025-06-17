@@ -1,4 +1,4 @@
-import {carta} from '../data.js'
+import {cartas as carta} from '../data.js'
 import { useState } from 'react';
 import {cerveza} from '../data.js'
 import {BlurText} from './ubicacion/BlurText.jsx'
@@ -85,7 +85,7 @@ export default function Menuinclusivo(){
       
       <div className='flex aling-center justify-center text-center underline decoration-double text-6xl font-mono'>
        <div>
-        <div className="flex justify-center text-6xl text-brown underline decoration-double font-mono">
+        <div className="flex justify-center text-white text-6xl text-brown underline decoration-double font-mono">
                     <BlurText
                       text="MENU INCLUSIVO"
                       delay={150}
@@ -94,9 +94,7 @@ export default function Menuinclusivo(){
                     
                       />
                 </div>
-          <div className="flex justify-center mx-auto border-white border-3 rounded-full bg-center h-50 w-50 bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8cTXQZf4gaMmkCCM9AJX5Lo8dTxpsYu-v5A&s)]"> 
-
-        </div>
+          
        </div>
        
           
