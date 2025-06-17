@@ -28,11 +28,12 @@ export default function Bebidas(){
     </>)}
     
     <Form/>
-    <div className="absolute top-30 left-2 h-200 gap-30">
-        <Tooltip />
-    </div>
+    <div className='flex justify-center'>
+        <div className='mt-4 mr-4 flex w-15'>
+          <Tooltip />
+        </div>
     
-    
+        </div>    
     <div/>
     </div>
  );

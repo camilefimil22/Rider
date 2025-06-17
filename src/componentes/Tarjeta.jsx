@@ -8,7 +8,7 @@ export default function Lista({titulo ,props}){
                     </div>
                     <div className="">
                     {props.map(item =>
-                        <div className= 'w-300 bg-white shadow-md rounded-md p-4 flex justify-between items-center mb-4 max-w-3xl'>
+                        <div className= 'w-100 md:w-300 m-1 bg-white shadow-md rounded-md p-4 flex justify-between items-center mb-4 max-w-3xl'>
                             <div className= 'flex-1 pr-4'>
                                 <h3 className= 'text-xl font-extrabold text-left text-gray-800 uppercase'>{item.producto} </h3>
                                 <p className='text-sm text-gray-700 mt-1 text-left'>{item.descripcion}</p>
