@@ -542,7 +542,7 @@ menukids : [
     {
     image: "https://cdn-icons-png.flaticon.com/512/1257/1257078.png",
     title: "COPA HELADA",
-    subtitle:"(hasta 3 sabores, (vainilla,americana,chocolate,frutilla,frutos del bosque))",
+    subtitle:"(hasta 3 sabores, (vainilla,americana,chocolate,frutilla,frutos del bosque)",
     },
      {
     image: "https://www.pictotraductor.com/img/pictogramas/SELES1409904275477.png",
@@ -596,7 +596,7 @@ sinalcohol :[
     subtitle:"(con menta & jengibre)",
     },
      {
-    image: "https://ih1.redbubble.net/image.411272905.6980/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u6.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxM-Ru9T48Y6oUOn5iG96SahUx0iussMVTWAKjnZ7m5nqxxGRuDNh6F5chDCC-jvZd7II&usqp=CAU",
     title: "LIMONADA ROSA",
     subtitle:"(con menta, frutos rojos & jengibre)",
     },
@@ -676,7 +676,7 @@ tragos : [
     },
      {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXUcC9GzgWdxOLz4594BAelI4lHwQMZXLvQ&s",
-    title: "CERVEZ ARTESANAL",
+    title: "CERVEZA ARTESANAL",
    
     
     },
