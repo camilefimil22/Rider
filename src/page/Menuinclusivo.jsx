@@ -66,7 +66,7 @@ const items = [
 
 function Item({ name }) {
    const item = cerveza.map((c,i) => (
-            <h1 key={i} className='bg-red-900 h-15 text-4xl w-155 text-center '>{c.title}</h1>
+            <h1 key={i} className='bg-red-900 h-15 text-4xl w-155 text-center text-white'>{c.title}</h1>
       ))
   if (name == carta.tragos) {
      return (<div>
@@ -99,37 +99,33 @@ export default function Menuinclusivo(){
        
           
       </div>
-    
+      <div className='flex justify-center'>
+
+      
    
-          <div className="font-serif grid row-span-2 h-40 grid-cols-2 m-auto">
+          <div className="font-serif md:grid gap-20 md:row-span-2 md:grid-cols-2 md:justify-items-start ">
             {state.map((c,i) => (
                 <div key={i} href='#' onClick={(e) =>  c.url ?( setState(c.url) , window.scrollTo({ top: 0, beheavior: 'smooth'})): (setState(items), window.scrollTo({ top: 0, beheavior: 'smooth'}))
               }
 
-                 className="bg-white m-2 flex m-5 w-60 justify-items-center">
+                 className="bg-white mt-4 flex  w-1/2 justify-items-center">
                
 
-                  <img className="h-50 w-50" src={c.image} alt={c.title} loading="lazy" />
+                  <img className="h-20 w-20 sm:h-50 sm:w-50" src={c.image} alt={c.title} loading="lazy" />
 
-                  <div className='content-center h-50 w-100 bg-red-900 '>
+                  <div className='content-center sm:h-50 sm:w-100 bg-red-900 '>
                     
-                    <h1 className='text-white text-4xl w-100 p-auto'>{c.title}</h1>
-                    <h1 className='text-2xl p-1 '>{c?.subtitle}</h1>
+                    <h1 className='text-white sm:text-4xl w-50 sm:w-100 p-auto'>{c.title}</h1>
+                    <h1 className='sm:text-2xl p-1 '>{c?.subtitle}</h1>
                   </div>
                 </div>
             ))}
                 
-                <a 
-                href='#'
-                onClick={(e) =>{
-                  e.preventDefault();
-                window.scrollTo({ top: 0, beheavior: 'smooth'});
-              }}
-              className='fixed bottom-5 right-5 bg-red-900 text-white px-4 py-2 rounded hover:bg-red-500'>
-              Subir</a>
+                
           <Item 
                 name={state} 
               />
+          </div>
           </div>
       </>
  
