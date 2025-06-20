@@ -407,14 +407,17 @@ export const cartas={
   {
     image: "https://media.istockphoto.com/id/1363835210/es/vector/vector-empanadas-ilustraci%C3%B3n-aislada-comida-frita.jpg?s=612x612&w=0&k=20&c=aq4eescLdl2x323_V5pKU2L-s-Kr2aO1w9C4Q3Onnlc=",
     title: "Jamon & Queso",
+    subtitle:"(fritas o al horno,con dip de salsa picante)",
    
     }, {
     image: "https://media.istockphoto.com/id/1363835210/es/vector/vector-empanadas-ilustraci%C3%B3n-aislada-comida-frita.jpg?s=612x612&w=0&k=20&c=aq4eescLdl2x323_V5pKU2L-s-Kr2aO1w9C4Q3Onnlc=",
     title: "Carne cortada a cuchillo",
+    subtitle:"(fritas o al horno,con dip de salsa picante)",
     
     }, {
     image: "https://media.istockphoto.com/id/1363835210/es/vector/vector-empanadas-ilustraci%C3%B3n-aislada-comida-frita.jpg?s=612x612&w=0&k=20&c=aq4eescLdl2x323_V5pKU2L-s-Kr2aO1w9C4Q3Onnlc=",
     title: "Queso y Cebolla",
+    subtitle:"(fritas o al horno,con dip de salsa picante)",
     
     }, 
  ],
@@ -547,11 +550,13 @@ menukids : [
      {
     image: "https://www.pictotraductor.com/img/pictogramas/SELES1409904275477.png",
     title: "CHOCOTORTA",
+    subtitle:"(mousse de dulce de leche,galletas de chocolate,queso crema)",
    
     },
      {
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBpArK9mAgjq7L4iGPuGJ7u5FAzvMpr7wT6w&s",
     title: "TIRAMISU",
+    subtitle:"(postre de vainillas remojadas en cafe,crema a base de huevos,azucar & mascarpone)",
     
      },
    

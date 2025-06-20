@@ -103,20 +103,20 @@ export default function Menuinclusivo(){
 
       
    
-          <div className="font-serif md:grid gap-20 md:row-span-2 md:grid-cols-2 md:justify-items-start ">
+          <div className="font-bold justify-items-center md:grid w-full gap-20 md:row-span-2 md:grid-cols-2 content-center">
             {state.map((c,i) => (
                 <div key={i} href='#' onClick={(e) =>  c.url ?( setState(c.url) , window.scrollTo({ top: 0, beheavior: 'smooth'})): (setState(items), window.scrollTo({ top: 0, beheavior: 'smooth'}))
               }
 
-                 className="bg-white mt-4 flex  w-1/2 justify-items-center">
+                 className="bg-white mt-4 flex  justify-items-center sm:justify-items-start">
                
 
                   <img className="h-20 w-20 sm:h-50 sm:w-50" src={c.image} alt={c.title} loading="lazy" />
 
                   <div className='content-center sm:h-50 sm:w-100 bg-red-900 '>
                     
-                    <h1 className='text-white sm:text-4xl w-50 sm:w-100 p-auto'>{c.title}</h1>
-                    <h1 className='sm:text-2xl p-1 '>{c?.subtitle}</h1>
+                    <h1 className='text-white sm:text-3xl w-50 sm:w-100 p-auto'>{c.title}</h1>
+                    <h1 className='sm:text-xl sm:w-100 p-auto'>{c?.subtitle}</h1>
                   </div>
                 </div>
             ))}

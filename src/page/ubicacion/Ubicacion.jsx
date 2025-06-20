@@ -40,29 +40,29 @@ export default function Ubicacion(){
        
         <ImLocation className="sm:text-7xl bg-red-900 backdrop-blur-sm rounded "/>
 
-        <p className="bg-red-900 backdrop-blur-sm p-4 rounded text-white sm:text-4xl font-serif">CONTACTANOS</p>
+        <p className="font-bold bg-red-900 backdrop-blur-sm p-4 rounded text-white sm:text-4xl font-serif">CONTACTANOS</p>
         </div>
 
-         <div className="bg-red-900 backdrop-blur-sm p-4 rounded  hover:text-white transition-transform duration-300 hover:scale-110 ">
+         <div className="rounded-full font-bold bg-red-900 backdrop-blur-sm p-4 rounded  hover:text-white transition-transform duration-300 hover:scale-110 ">
         <a className="flex" href="https://www.facebook.com/rider.brewingbar/photos/a.500740104063616/770925757045048/?type=3" target="_blank" rel="noopener noreferrer">
        <BsFacebook className="sm:text-4xl bg-center text-blue-500 "/>
        
         <p className="sm:text-3xl font-serif ">Rider Brewing Bar</p>
          </a>
         </div>
-        <div className="bg-red-900 backdrop-blur-sm p-4 rounded mt-15  hover:text-white transition-transform duration-300 hover:scale-110">
+        <div className="font-bold bg-red-900 backdrop-blur-sm p-4 rounded-full mt-15  hover:text-white transition-transform duration-300 hover:scale-110">
           <a className="flex" href="https://www.instagram.com/rider_bar/?hl=es" target="_blank" rel="noopener noreferrer">
          
           <FaInstagram   className="sm:text-4xl bg-center bg-pink-400 text-white"/>
       
 
       <a href="https://www.instagram.com/rider_bar/?hl=es" target="_blank" rel="noopener noreferrer"></a>
-        <p className="sm:text-3xl font-serif  ">ʀɪᴅᴇʀ ʙᴀʀ (@rider_bar)</p>
+        <p className="rounded-full sm:text-3xl font-serif  ">ʀɪᴅᴇʀ ʙᴀʀ (@rider_bar)</p>
         </a>
         
         </div>
    
-        <div className="bg-red-900 backdrop-blur-sm p-4 rounded mt-15  hover:text-white transition-transform duration-300 hover:scale-110">
+        <div className="rounded-full font-bold bg-red-900 backdrop-blur-sm p-4 rounded mt-15  hover:text-white transition-transform duration-300 hover:scale-110">
           <a className="flex" href="https://www.google.com/search?sca_esv=3689d8f87b454a04&biw=1272&bih=650&q=rider.brewing+bar@gmail.com&spell=1&sa=X&ved=2ahUKEwi9v5a21O-NAxUbG7kGHQ4xCJ4QBSgAegQIIBAB" target="_blank" rel="noopener noreferrer">
         <MdOutlineEmail className="sm:text-4xl bg-center  bg-orange-300"/>
         
@@ -70,7 +70,7 @@ export default function Ubicacion(){
           </a>
         </div>
        
-      <div className="bg-red-900 backdrop-blur-sm p-4 rounded flex mt-15 hover:text-white transition-transform duration-300 hover:scale-110">
+      <div className="rounded-full font-bold bg-red-900 backdrop-blur-sm p-4 rounded flex mt-15 hover:text-white transition-transform duration-300 hover:scale-110">
           
         <BsWhatsapp className="sm:text-4xl bg-center text-white bg-green-500"/>
           <a className="flex" href="https://api.whatsapp.com/send?phone=542945546956&text=Hola%2C%20quiero%20hacer%20un%20pedido." target="_blank" rel="noopener noreferrer">
@@ -79,11 +79,11 @@ export default function Ubicacion(){
         </a>
         </div>
 
-      <div className="bg-red-900 backdrop-blur-sm p-4 rounded flex mt-15  hover:text-white transition-transform duration-300 hover:scale-110">
+      <div className="rounded-full font-bold bg-red-900 backdrop-blur-sm p-4 rounded flex mt-15  hover:text-white transition-transform duration-300 hover:scale-110">
           
         <FcAutomotive  className="sm:text-4xl "/>
          
-          <p className="sm:text-3xl font-serif ">25 de Mayo 478, U9200 Esquel, Chubut</p>
+          <p className="sm:text-2xl font-serif ">25 de Mayo 478, U9200 Esquel, Chubut</p>
         
         </div>
 

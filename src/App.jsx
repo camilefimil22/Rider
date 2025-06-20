@@ -10,18 +10,24 @@ import Ubicacion from './page/ubicacion/Ubicacion.jsx';
 
 
 export default function App() {
+  
+
   return (
       <>
-    <nav className='flex justify-center text-white w-full '>
-    < ul className ="flex m-2 gap-2 justify-between w-full">
-    <li><Link to= '/'>Inicio</Link></li>
-    <li><Link to= 'Menu'>Menú</Link></li>
-    <li><Link to= 'Bebidas'>Bebidas</Link></li>
-    <li><Link to= 'Menuinclusivo'>Menú Inclusivo</Link></li>
-    <li><Link to= 'Ubicacion'>Ubicación</Link></li>
+    
+    <nav className='flex h-15 text-white w-full '>
+    < ul className ="flex justify-between  w-full">
+    <li className='has-focus:bg-red-600 text-center w-1/5 rounded-sm text-white font-bold bg-red-800'><Link to= '/'>Inicio
+    </Link></li>
+    <li className='has-focus:bg-red-600 w-1/5 rounded-sm text-white font-bold bg-red-800'><Link to= 'Menu'>Menú</Link></li>
+    <li className='has-focus:bg-red-600 w-1/5 rounded-sm text-white font-bold bg-red-800'><Link to= 'Bebidas'>Bebidas</Link></li>
+    <li className='has-focus:bg-red-600 w-1/5 rounded-sm text-white font-bold bg-red-800'><Link to= 'Menuinclusivo'>Menú Inclusivo</Link></li>
+    <li className='has-focus:bg-red-600 w-1/5 rounded-sm text-white font-bold bg-red-800'><Link to= 'Ubicacion'>Ubicación</Link></li>
     </ul>
 
-  </nav>
+   </nav>
+
+
      
    <Routes>
           <Route path="/" element={<Inicio />} />
