@@ -3,7 +3,7 @@ import React from 'react';
 const Form = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen dark">
-      <div className="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">
+      <div className="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6 mt-500">
         <h2 className="text-2xl font-bold text-gray-200 mb-4">RESERVA TU MESA</h2>
         <form className="flex flex-col">
           <input placeholder="Nombre" className="bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150" type="text" />

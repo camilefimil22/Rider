@@ -133,7 +133,7 @@ sandwiches :[
      {
         producto:"SANGUINESA",
         descripcion:"MILANESA, JAMON, QUESO, LECHUGA Y TOMATE",
-        precio:"$1900",
+        precio:"$19000",
         imagen:"https://static.wixstatic.com/media/e536b4_ebc6547754d443128da60811a4e97bfb~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e536b4_ebc6547754d443128da60811a4e97bfb~mv2.jpg"
     },
     {
@@ -282,7 +282,7 @@ export const bebida ={ tragos :[
         producto: "GIN TONIC ROSADO",
         descripcion: "GIN DE LA CASA, TONICA, FRUTOS ROJOS",
         precio: "$8000",
-        imagen: "https://media.istockphoto.com/id/1162039216/es/foto/vaso-de-gin-tonic-rosa-y-lim%C3%B3n.jpg?s=170667a&w=0&k=20&c=o6GJkKGA62HnhkBI98w72XdqlJu0dOf3UNOfZwggolY="
+        imagen: "https://ginbruni.com/wp-content/uploads/2022/07/1-min-60.jpg"
     },
      {
         producto: "TANQUERAY",
